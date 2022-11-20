@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    </head>
+   
+<body>
+	<div>
+		<h1>еботня</h1>
+		<h3>бляяяя</h3>
+
+		<!-- img element without src attribute -->
+		<img id="image" src="" />
+	</div>
+
+	<button type="button"
+		onclick="show()" id="btnID">
+		опппппаааа
+	</button>
+
+	<script>
+		function show() {
+
+			/* Get image and change value
+			of src attribute */
+			let image = document.getElementById("image");
+
+			image.src = "http://risovach.ru/upload/2014/03/mem/pyatka_45417874_orig_.jpeg"
+
+			document.getElementById("btnID")
+					.style.display = "none";
+		}
+	</script>
+</body>
+
+</html>
