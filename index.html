@@ -13,6 +13,7 @@
 
 		<!-- img element without src attribute -->
 		<img id="image" >
+		<img id="image1" >
 	</div>
 
 	<button type="button"
@@ -26,8 +27,10 @@
 			/* Get image and change value
 			of src attribute */
 			let image = document.getElementById("image");
+			let image1 = document.getElementById("image1");
 
 			image.src = "image/aaaaaaa.jpeg"
+			image1.src = "image/123.jpeg"
 
 			document.getElementById("btnID")
 					.style.display = "none";
