@@ -2,6 +2,34 @@
 
 <html>
     <header>
+		<script>
+			(function () {
+   			var app = "https://script.google.com/macros/s/AKfycbyf1fZSk45SAx23guPg6Yaj3I78TqI-NKO70NLqUNvVoZm9BFzKXsHyulAreJAaJXk6/exec",
+      		output = '',
+      		xhr = new XMLHttpRequest();
+   			xhr.open('GET', app);
+   			xhr.onreadystatechange = function() {
+     		if (xhr.readyState !== 4) return;
+
+     		if (xhr.status == 200) {
+        	try {
+            var r = JSON.parse(xhr.responseText),
+               result = r["result"];
+            for (var i = 0; i < result.length; i++){
+                  var obj = r["result"][i];
+                  output += obj.join("<br/>") + "<br/><hr/>";
+            }
+        	} catch(e) {}
+     		} 
+     
+   			document.getElementById('info').innerHTML = output;
+
+   			}
+   			xhr.send()
+			})()
+
+
+		</script>
 		<nav class="collor" role="navigation">
 			<div class="navigation_form">
 				<a id="logo-container" href="/" class="logo">
@@ -22,6 +50,22 @@
 		</nav>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<body>
+		<div>
+			<table>
+				<tr>
+					<th>пидр</th>
+					<th>пидорас</th>
+					<th>пидрила</th>
+				  </tr>
+				  
+			</table>
+
+
+		</div>
+		<div id="info"></div>
+	</body>
     
 </html>
 
