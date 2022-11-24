@@ -1,42 +1,29 @@
 <!DOCTYPE html>
+
 <html>
-
-
-    <table class="table">
-        <thead class="thead-dark">
-            <tr>
-                <th scope="col">№</th>
-                <th scope="col">Имя</th>
-                <th scope="col">Адрес электронной почты</th>
-                <th scope="col">Адрес</th>
-            </tr>
-        </thead>
-            <tbody>
-                <php>
-                    $id = '1OCn_nyTfpcdEtXXpRL17F02KuQiuVkpnd0PHlARQ3Nw';
-                    $gid = '0';
-                    $csv = file_get_contents('https://docs.google.com/spreadsheets/d/' . $id . '/export?format=csv&gid=' . $gid);
-                    $csv = explode("\r\n", $csv);
-                    $array = array_map('str_getcsv', $csv);
-                    foreach ($array as $arr)    
-                    {   
-                        
-                        $i++;
-                        $html .= '<tr>';
-                        $html .= '<td scope="row">'.$i.'</td>';
-                        foreach ($arr as $td) 
-                        {
-                            $html .= '<td scope="col">'.$td.'</td>';
-                        }
-                        $html .= '';
-                    }
-                    echo $html;
-
-                </php>
-                    
-                
+    <header>
+		<nav class="collor" role="navigation">
+			<div class="navigation_form">
+				<a id="logo-container" href="/" class="logo">
+					ебаный рот
+				</a>
+				<ul class="right button">
+					<li>
+						<a href="/form_reg.html">Пачада заявки</a>
+					</li>
+					<li>
+						<a href="/form_golos.html"> Голосование</a>
+					</li>
+					<il>
+						<a href="/form_res.html"> Результат</a>
+					</il>
+				</ul>
+			</div>
+		</nav>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     
-    
-            </tbody>
-    </table>
 </html>
+
+
+
