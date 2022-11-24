@@ -1,1 +1,42 @@
+<!DOCTYPE HTML>
 
+
+
+
+<html>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <php>
+        $id = '1OCn_nyTfpcdEtXXpRL17F02KuQiuVkpnd0PHlARQ3Nw';
+        $gid = '0';
+        $csv = file_get_contents('https://docs.google.com/spreadsheets/d/' . $id . '/export?format=csv&gid=' . $gid);
+        $csv = explode("\r\n", $csv);
+       $ array = array_map('str_getcsv', $csv);
+
+    </php>
+
+    <table class="table">
+        <thead class="thead-dark">
+            <tr>
+                <th scope="col">№</th>
+                <th scope="col">Имя</th>
+                <th scope="col">Адрес электронной почты</th>
+                <th scope="col">Адрес</th>
+            </tr>
+        </thead>
+        <tbody>
+          <php>
+            foreach ($array as $arr){
+                $i++;
+                $html .= '<tr>';
+                $html .= '<td scope="row">'.$i.'</td>';
+                foreach ($arr as $td) {
+                  $html .= '<td scope="col">'.$td.'</td>';
+                }
+                $html .= '';
+          </php>
+        </tbody>
+      </table>
+
+
+
+</html>
