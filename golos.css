@@ -1,0 +1,14 @@
+body {
+    background: url(image/background1.jpg) ;
+    background-position: center center;
+    background-size: cover ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+p{
+    font-size: 25px;
+    display: block;
+    margin: 0 auto;
+    width: 0px;
+}

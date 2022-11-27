@@ -6,9 +6,37 @@
         <meta charset="UTF-8">
         <title>Название страницы</title>
         <meta name="description" content="Описание страницы" />
+		<link rel = "stylesheet" href = "reg.css">
 
 
     </head>
+
+	<head>
+		<style>
+			A{
+				color:#800;
+				background: #ffffff;
+				padding: 2px;
+			}
+		</style>
+	</head>
+
+	<div>
+		<img id="image">
+	</div>
+	<button type="submit"
+		onclick="showfoto()" id="btnfoto">
+		Подумой
+	</button>
+	<script>
+		function showfoto() {
+			let imege = document.getElementById("image");
+			image.src = "image/mem.jpg"
+			document.getElementById("btnfoto")
+					.style.display = "none";
+		}
+	</script>
+</body>
 
     <body>
         <nav class="collor" role="navigation">

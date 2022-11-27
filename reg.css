@@ -1,0 +1,15 @@
+body {
+    background: url(image/background2.jpg) ;
+    background-position: 900px -20px;
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+p{
+    font-size: 10px;
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+}
+
