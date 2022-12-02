@@ -1,8 +1,8 @@
 body {
     background: url(image/background2.jpg) ;
-    background-position: 900px -20px;
+    background-position: 0px 0px;
     background-size: cover;
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
@@ -13,3 +13,6 @@ p{
     width: 80%;
 }
 
+#clsfot {
+visibility:hidden;
+}

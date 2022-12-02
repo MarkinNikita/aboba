@@ -6,38 +6,53 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<title> Овчинников сайт</title>
-		<link rel = "stylesheet" href = "main.css">
+        <link rel = "stylesheet" href = "main.css">
     </head>
 	<head>
 		<style>
-			A{
-				color:#800;
-				background: #ffffff;
-				padding: 2px;
-			}
+			#navbar{
+			  margin: 0 ;
+			  padding: 110 ;
+			  list-style-type: none ;
+			  border: 5px solid #0066FF ;
+			  border-radius 20px 5px ;
+			  width: 99.5% ;
+			  text-align: center ;
+			  background-color: #33ADFF;
+			  }
+
+			  #navbar li{ display: inline}
+
+			  #navbar a{
+			  color: #fff
+			  padding: 50px 10px;
+			  text-decoration: none;
+			  font-weight: bold;
+			  display: inline-block;
+			  width: 200px;
+			  }
+
+			  #navbar a:hover {
+			  border-radius: 20px 5px;
+			  background-color: #0066FF;
+			  }
 		</style>
 	</head>
 <body>
 	<header>
-		<nav class="collor" role="navigation">
-			<div class="navigation_form">
-				<a id="logo-container" href="/" class="logo">
-					ебаный рот
-				</a>
-				<ul class="right button">
+				<ul id="navbar">
 					<li>
-						<a href = "/author.html">Авторы проекта</a>
+						<a href="/author.html">Авторы проекта</a>
 					</li>
 					<li>
-						<a href="/form_reg.html">Пачада заявки</a>
+						<a href="/form_reg.html">Подача заявки</a>
 					</li>
 					<li>
 						<a href="/form_golos.html"> Голосование</a>
 					</li>
-					<il>
+					<li>
 						<a href="/form_res.html"> Результат</a>
-					</il>
-					
+					</li>
 				</ul>
 			</div>
 		</nav>

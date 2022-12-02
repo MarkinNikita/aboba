@@ -4,7 +4,7 @@
 <html lang="ru">
     <head>
         <meta charset="UTF-8">
-        <title>Название страницы</title>
+        <title>Подача заявки</title>
         <meta name="description" content="Описание страницы" />
 		<link rel = "stylesheet" href = "reg.css">
 
@@ -32,37 +32,44 @@
 	</button>
 	<script>
 		function showfoto() {
-			let imege = document.getElementById("image");
+			let image = document.getElementById("image");
 			image.src = "image/mem.jpg"
 			document.getElementById("btnfoto")
 					.style.display = "none";
+			document.getElementById("clsfot")
+			         .style.visibility = "visible";
 		}
 	</script>	
 
 	
-	<button type="button" 
-	  onclick="closefoto()" id="clsfot">
+	<button type="button"
+	  onclick="closefoto()" id="clsfot" >
 	   Подумал, то жми сюда
 	</button>  
 	<script>
 		function closefoto(){
-		    let imege = document.getElementById("image");
+		    let image = document.getElementById("image");
 			image.src = "image/12.jpg"
 			document.getElementById("clsfot")
 					.style.display = "none";
 		}
 	</script>
+<body>
+  <style>
+	.st{
+	background:white;
+	}
+  </style>
 </body>
 
-    <body>
         <nav class="collor" role="navigation">
 			<div class="navigation_form">
-				<a id="logo-container" href="/index.html" class="logo">
-					ебаный рот
-				</a>
 				<ul class="right button">
 					<li>
-						<a href="/form_reg.html">Пачада заявки</a>
+						<a href="/index.html">Главная страница</a>
+					</li>
+					<li>
+						<a href="/form_reg.html">Подача заявки</a>
 					</li>
 					<li>
 						<a href="/form_golos.html"> Голосование</a>
@@ -79,8 +86,8 @@
         <main>
             <div align ="center">
                 <section>
-                    <h1>Подача заявки на участие в конкурсе</h1>
-                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdIXwBmowkR64rgXJlbp7s6qOxtMs9omdyiAsSEUR0h-cnQPA/viewform?embedded=true" width="640" height="947" frameborder="0" marginheight="0" marginwidth="0">Загрузка…</iframe>
+                    <p class="st"><h1>Подача заявки на участие в конкурсе</h1></p>
+                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdIXwBmowkR64rgXJlbp7s6qOxtMs9omdyiAsSEUR0h-cnQPA/viewform?embedded=true" width="700" height="1100" frameborder="0" marginheight="0" marginwidth="0">Загрузка…</iframe>
                     </section>
             </div>
         
