@@ -1,7 +1,51 @@
 body {
-    background: url(image/background.jpg) ;
-    background-size:cover;
+    background-color: white;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-attachment:fixed;
+    background-attachment: fixed;
 }
 
+
+#navbar {
+    margin: 0;
+    list-style-type: none;
+    width: 50%;
+    height: 5%;
+    text-align: center;
+    background-color: #33ADFF;
+    position: absolute;
+    left: 47.9%;
+    top: 0%;
+    font-size: 2.5vh;
+}
+
+.square {
+    margin: 0;
+    left: 0%;
+    top: 0%;
+    list-style-type: none;
+    width: 50%;
+    height: 5%;
+    background-color: #33ADFF;
+    position: absolute;
+    text-align: center;
+    font-size: 4vh;
+    
+}
+
+
+#navbar li {
+    display: inline
+}
+
+#navbar a {
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    width: 200px;
+}
+
+#navbar a:hover {
+    border-radius: 10px 5px;
+    background-color: #0066FF;
+}
