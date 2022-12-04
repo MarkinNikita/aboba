@@ -12,7 +12,7 @@
  } catch(e) {}
   } 
 
-  document.querySelector(".content").innerHTML=`<table class="ebab"></table>`
+  document.querySelector(".content").innerHTML=`<table class="ebab"></table>`   /*сюда потом впишешь стиль для таблицы как ссылку на файл */
 
   for(key in r){
       let row = document.createElement('tr')
