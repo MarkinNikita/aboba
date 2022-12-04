@@ -16,7 +16,7 @@ body {
     position: absolute;
     left: 47.9%;
     top: 0%;
-    font-size: 2.5vh;
+
 }
 
 .square {
@@ -30,7 +30,6 @@ body {
     position: absolute;
     text-align: center;
     font-size: 4vh;
-    
 }
 
 
@@ -43,9 +42,16 @@ body {
     font-weight: bold;
     display: inline-block;
     width: 200px;
+    color: red;
 }
 
 #navbar a:hover {
     border-radius: 10px 5px;
     background-color: #0066FF;
+}
+
+
+#clsfot {
+    margin-top: 20px;
+    visibility: hidden;
 }
