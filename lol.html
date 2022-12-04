@@ -1,0 +1,31 @@
+<html>
+ <head>
+   <title>Видео в качестве фона сайта - Нубекс</title>
+  <style>
+	.overlay {width: 100%; height:100%; display:block;}
+	#nubexDiv {
+		top: 0; bottom: 0; left: 0; right: 0;
+		position: fixed;
+		overflow: hidden;
+	}
+	#nubexVideo {
+		top: 0; left: 0;
+		position: absolute;
+		width: auto; height: auto;
+		min-width: 100%; 
+		min-height: 100%; 
+	}
+  </style>
+ </head>
+ <body>
+	<div id="nubexDiv" class="overlay">
+ 	 <video id="nubexVideo" width="100%" height="auto" loop="loop" muted autoplay="1" preload="auto">
+   		<source src="truba.mp4"></source>
+   		<audio autoplay="1" loop="loop">
+            <source src="duxota.mp3" type="audio/mp3" >
+            Ваш браузер не пожжерживает тег audio!
+        </audio>
+ 	 </video>
+	</div>
+ </body>
+</html>
