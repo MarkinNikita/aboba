@@ -1,0 +1,12 @@
+.result{
+    font-size: 18px;
+    background-color: #626694;
+    color: #fff;
+    border-collapse: collapse;
+
+}
+.result td{
+    padding: 10px;
+    border: 1px solid #fff;
+
+}
