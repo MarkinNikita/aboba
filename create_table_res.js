@@ -12,12 +12,24 @@
  } catch(e) {}
   } 
 
-  document.querySelector(".content").innerHTML=`<table class="ebab"></table>`   /*сюда потом впишешь стиль для таблицы как ссылку на файл */
+  document.querySelector(".center").innerHTML=`
+  <table class="result" style="table">
+  <thead class="thead_table"></thead>
+  <tbody class="tbody_table"style="body"></tbody>
+  </table>
+  `   /*сюда потом впишешь стиль для таблицы как ссылку на файл */
 
   for(key in r){
       let row = document.createElement('tr')
-      row.innerHTML=`<td colspan="3">${key}</td>`
-      document.querySelector('.ebab').appendChild(row)
+      row.innerHTML=`
+      <td>место</td>
+      <td>проект</td>
+      <td>Описание</td>
+      <td>Команда</td>
+      <td>Рейтинг</td>
+      
+      `
+      document.querySelector('.thead_table').appendChild(row)
   }
   for(let i=0 ; i<r[key].length;i++)
   {
@@ -28,9 +40,9 @@
       <td>${r[key][i][2]}</td>
       <td>${r[key][i][3]}</td>
       <td>${r[key][i][4]}</td>
-      <td>${r[key][i][5]}</td>
+      
       `
-      document.querySelector('.ebab').appendChild(row)
+      document.querySelector('.tbody_table').appendChild(row)
 
   }
 
