@@ -5,8 +5,7 @@ const test={
         ['да','бля']
     ]
 }
-
-
+    
 
     document.querySelector(".content").innerHTML=`<table class="ebab"></table>`
 
@@ -15,7 +14,8 @@ const test={
         row.innerHTML=`<td colspan="3">${key}</td>`
         document.querySelector('.ebab').appendChild(row)
     }
-    for(let i=0 ; i<test[key].length;i++){
+    for(let i=0 ; i<test[key].length;i++)
+    {
         let row =document.createElement('tr')
         row.innerHTML=`
         <td>${test[key][i][0]}</td>
