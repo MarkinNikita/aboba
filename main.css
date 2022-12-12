@@ -26,9 +26,10 @@ body {
 
 
 .zh {
-    position: relative;
-    top: 730px;
-    height: 40px;
+    position: fixed;
+    left:0;
+    bottom:0;
+    width: 100%;
     overflow: hidden;
     color: #ddd;
     text-align: center;
