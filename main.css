@@ -19,20 +19,22 @@ body {
 }
 
 #clsfot {
-    margin-top: 1000px;
     visibility: hidden;
 }
 
 
 
-.zh {
-    margin-top: 100px;
-    color:black;
-    padding: 14px 16px;
-    font-size: 17px;
-    text-align: center;
-}
 
+.zh {
+    position: relative;
+    top: 730px;
+    height: 40px;
+    overflow: hidden;
+    color: #ddd;
+    text-align: center;
+    background-color: #333;
+  }
+  
 
 
 
