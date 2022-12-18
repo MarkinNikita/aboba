@@ -42,6 +42,7 @@
   *  - АД (администрирование/тюнинг)
   *  - ВН (внедрение/продажи)
   *  - КО (консалинг/обучение)
- Распределение ролей также показано в Google-таблице: [Кондуит ИДМ-22](https://docs.google.com/spreadsheets/d/1ypxgDUpNsaAK5PH90dTfGKdtDnWaeEDWfupEbDokN6A/edit#gid=1891559469)
+ 
+Распределение ролей также показано в Google-таблице: [Кондуит ИДМ-22](https://docs.google.com/spreadsheets/d/1ypxgDUpNsaAK5PH90dTfGKdtDnWaeEDWfupEbDokN6A/edit#gid=1891559469)
 ## Проект
 * [сайт](https://aboba-phi.vercel.app)
