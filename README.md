@@ -24,7 +24,7 @@
   *  Чешков Леонид - РП (управление проектами)
   *  - АД (администрирование/тюнинг)
   *  - ВН (внедрение/продажи)
-  *  [Крючков Павел] (https://github.com/bagofpockets) - КО (консалинг/обучение)
+  *  [Крючков Павел](https://github.com/bagofpockets) - КО (консалинг/обучение)
  
 Распределение ролей также показано в Google-таблице: [Кондуит ИДМ-22](https://docs.google.com/spreadsheets/d/1ypxgDUpNsaAK5PH90dTfGKdtDnWaeEDWfupEbDokN6A/edit#gid=1891559469)
 ## Проект
