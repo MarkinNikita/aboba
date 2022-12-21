@@ -9,10 +9,10 @@
 
 ## :white_check_mark: Используемые средства разработки
 ### Backend
-   + Язык программирования JavaScript.
+   + Язык программирования JavaScript
 ### Frontend
-   + HTML;
-   + CSS;
+   + HTML
+   + CSS
    
 ## :white_check_mark: Состав команды
 * **ИДМ-22-05:**
