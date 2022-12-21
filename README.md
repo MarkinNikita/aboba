@@ -31,5 +31,4 @@
 [Перейти к коду](https://aboba-phi.vercel.app)
 
 ## :white_check_mark: Открытый исходный код
-Вставьте ссылку где у вас код лежит
 [Посмотреть](https://github.com/MarkinNikita/aboba)
