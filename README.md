@@ -28,7 +28,8 @@
 Распределение ролей также показано в Google-таблице: [Кондуит ИДМ-22](https://docs.google.com/spreadsheets/d/1ypxgDUpNsaAK5PH90dTfGKdtDnWaeEDWfupEbDokN6A/edit#gid=1891559469)
 
 ## :white_check_mark: Разработанный сайт
-[Посмотреть](https://aboba-phi.vercel.app)
+[Перейти к коду](https://aboba-phi.vercel.app)
 
 ## :white_check_mark: Открытый исходный код
-< вставьте ссылку где у вас код лежит
+Вставьте ссылку где у вас код лежит
+[Посмотреть]()
